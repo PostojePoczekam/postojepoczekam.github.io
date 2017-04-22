@@ -37,6 +37,8 @@ header,
 .refs {
 	float: left;
 	font-size: 250%;
+	color:white;
+	text-decoration: none; 
 }
 
 .full-bg-img .card {
