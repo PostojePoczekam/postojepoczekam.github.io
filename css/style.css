@@ -1,1 +1,49 @@
-/* YOUR CUSTOM STYLES */
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+/*Intro*/
+
+.view {
+    background: url("http://mdbootstrap.com/images/regular/people/img%20(51).jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .full-bg-img,
+    .view {
+        height: auto;
+        position: relative;
+    }
+}
+
+.description {
+    padding-bottom: 3rem;
+    color: #fff
+}
+
+@media (max-width: 992px) {
+    .description {
+        padding-top: 7rem;
+        text-align: center;
+    }
+}
+
+.refs {
+	float: left;
+	font-size: 250%;
+}
+
+.full-bg-img .card {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.github-widget {
+	margin: auto;
+    padding: 10px;
+}

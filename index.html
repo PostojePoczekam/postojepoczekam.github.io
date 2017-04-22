@@ -12,25 +12,71 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
+    <!-- Custom styles -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        <!--Mask-->
+        <div class="view hm-black-light">
+            <div class="full-bg-img flex-center">
+                <div class="container">
+                    <div class="row" id="home">
 
-    <!--Start your project here-->                            
-	
-	<!--/Start your project here-->
+                        <!--First column-->
+                        <div class="col-lg-6">
+                            <div class="description">
+                                <h2 class="h2-responsive wow fadeIn">Maciej Tworek </h2>
+                                <hr class="hr-light wow fadeIn">
+                                <p class="wow fadeIn" data-wow-delay="0.4s">Young but experienced, homemade programmer</p>
+                                <br>
+								<p class="wow fadeIn" data-wow-delay="0.8s">
+									<a class="nav-link waves-effect refs"><i class="fa fa-github"></i></a>
+									<a class="nav-link waves-effect refs"><i class="fa fa-envelope"></i></a>
+									<a class="nav-link waves-effect refs"><i class="fa fa-linkedin"></i></a>
+								</p>
+                            </div>
+                        </div>
+                        <!--/.First column-->
+
+                        <!--Second column-->
+                        <div class="col-lg-5">
+                            <div class="card wow fadeIn">
+                                <div class="github-widget" data-username="postojepoczekam"></div>
+                            </div>
+                        </div>
+                        <!--/Second column-->
+						
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/.Mask-->
+    </header>
 
     <!-- SCRIPTS -->
+
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
+
+    <!-- Tooltips -->
     <script type="text/javascript" src="js/tether.min.js"></script>
+
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
+
+	<!-- Github widget -->
+	<script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
+	
+    <script>
+        new WOW().init();
+    </script>
+
+
 </body>
 
 </html>
